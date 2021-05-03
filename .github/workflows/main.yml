@@ -43,6 +43,4 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags:
-            danielamazonas/api-bootcamp-produto:latest
-            danielamazonas/api-bootcamp-produto:${{github.run_number}}
+          tags: danielamazonas/api-bootcamp-produto:latest danielamazonas/api-bootcamp-produto:${{github.run_number}}
