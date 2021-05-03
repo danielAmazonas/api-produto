@@ -45,4 +45,4 @@ jobs:
           push: true
           tags:
             danielamazonas/api-bootcamp-produto:latest
-            danielamazonas/api-bootcamp-produto:v${{github.run_number}}
+            danielamazonas/api-bootcamp-produto:${{github.run_number}}
